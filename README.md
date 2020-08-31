@@ -110,5 +110,11 @@ yarn build
 실행 시 음성 파일을 재생을 위한 오픈소스 라이브러리인 WaveSurfer.js에서 발생하는 에러를 수정해야합니다.         
 npm install 이후 생성된 node_modules/wavesurfer.js/src/plugin/timeline.js를 프로젝트 최상단에 있는 timeline.js로 변경하면 됩니다.                 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 오픈 소스 
+[Configuration Reference](https://cli.vuejs.org/config/).      
+[WaveSurfer.js](https://wavesurfer-js.org/).        
+[Vue Audio Recorder](https://github.com/grishkovelli/vue-audio-recorder).         
+[Canvas](https://developer.mozilla.org/ko/docs/Web/HTML/Canvas).
+[Draw on Canvas](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics).
+[Sha256](https://nodei.co/npm/js-sha256/).
+[Vue phone number Input](https://www.npmjs.com/package/vue-phone-number-input).
