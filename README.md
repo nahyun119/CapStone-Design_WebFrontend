@@ -1,4 +1,6 @@
 # 2020-1 Capstone Design 방구석 수집가 WEB
+![image](https://user-images.githubusercontent.com/52439497/91727985-6e5b5300-ebdd-11ea-85a6-fd182a2924ef.png)
+
 AI 학습을 위한 데이터 수집 및 가공 플랫폼인 방구석 수집가의 web frontend 코드입니다.       
 방구석 수집가를 web 환경에서 작업을 의뢰하거나 작업을 진행할 때 필요한 소스코드입니다.       
 의뢰자는 방구석 수집가를 통해 쉽게 데이터 수집 및 가공을 복잡한 절차 없이 의뢰할 수 있으며, 플랫폼에서 자동으로 이루어지는 교차검증을 통해 기존의 데이터 수집 및 가공 플랫폼보다 더 고품질의 데이터를 제공받을 수 있습니다.       
@@ -12,6 +14,82 @@ AI 학습을 위한 데이터 수집 및 가공 플랫폼인 방구석 수집가
 수집 작업은 이미지 수집, 음성 수집, 텍스트 수집이 존재합니다.     
 라벨링 작업은 이미지, 음성, 텍스트를 주어진 라벨에 맞게 분류하는 분류 작업과 이미지에 주어진 라벨에 맞는 사물 혹은 인물을 바운딩 박스를 그리는 이미지 바운딩 박스 작업이 존재합니다.      
     
+## 방구석 수집가 구성도
+### 방구석 수집가 SW 구성!
+![image](https://user-images.githubusercontent.com/52439497/91727886-479d1c80-ebdd-11ea-9a83-cf14135b34cd.png)
+
+### 방구석 수집가 SW 컴포넌트 구성
+![image](https://user-images.githubusercontent.com/52439497/91727876-42d86880-ebdd-11ea-8ac4-a39c7983bee3.png)
+
+
+## 방구석 수집가 화면 
+
+#### 1. 홈 화면
+![image](https://user-images.githubusercontent.com/52439497/91726407-23404080-ebdb-11ea-8239-1c83a2b36a19.png)
+
+#### 2. 로그인 화면
+![image](https://user-images.githubusercontent.com/52439497/91726486-4834b380-ebdb-11ea-9c08-d836a78a4fd4.png)
+
+
+#### 3. 회원가입 화면
+![image](https://user-images.githubusercontent.com/52439497/91726501-4ec32b00-ebdb-11ea-800e-8674f5f6c36d.png)
+
+
+#### 4. 오픈 뱅킹 계좌 등록 화면
+![image](https://user-images.githubusercontent.com/52439497/91726518-584c9300-ebdb-11ea-9620-d882b39ecfb2.png)
+
+
+#### 5. 마이페이지 & 개인 정보 수정 화면
+![image](https://user-images.githubusercontent.com/52439497/91726533-63072800-ebdb-11ea-8284-18026bf91470.png)
+![image](https://user-images.githubusercontent.com/52439497/91726543-68647280-ebdb-11ea-9b95-f9be0c99abf9.png)
+
+#### 6. 수집 작업 의뢰
+![image](https://user-images.githubusercontent.com/52439497/91726571-731f0780-ebdb-11ea-8457-5980ef9ed29f.png)
+
+#### 7. 라벨링 작업 의뢰
+![image](https://user-images.githubusercontent.com/52439497/91726588-7ca86f80-ebdb-11ea-97ca-86692678cb54.png)
+
+#### 8. 작업 검색
+![image](https://user-images.githubusercontent.com/52439497/91726623-8a5df500-ebdb-11ea-9692-6db17b2a89aa.png)
+
+#### 9. 작업 시작(개인정보이용동의)
+![image](https://user-images.githubusercontent.com/52439497/91726656-947ff380-ebdb-11ea-86e5-b29b3a365d74.png)
+
+#### 10. 이미지 수집 작업
+![image](https://user-images.githubusercontent.com/52439497/91726679-9b0e6b00-ebdb-11ea-8360-203bde00f40c.png)
+
+#### 11. 텍스트 수집 작업 
+![image](https://user-images.githubusercontent.com/52439497/91726714-a497d300-ebdb-11ea-832f-37ab48e60135.png)
+
+#### 12. 음성 수집 작업
+![image](https://user-images.githubusercontent.com/52439497/91726735-acf00e00-ebdb-11ea-824c-2b3be55aebda.png)
+
+#### 13. 분류 작업
+![image](https://user-images.githubusercontent.com/52439497/91726757-b8dbd000-ebdb-11ea-963d-624c81fb8c60.png)
+
+#### 14. 이미지 바운딩 박스 작업
+![image](https://user-images.githubusercontent.com/52439497/91726858-de68d980-ebdb-11ea-8ea2-28fee182a51c.png)
+
+#### 15. 완료한 작업 목록
+![image](https://user-images.githubusercontent.com/52439497/91726840-d9a42580-ebdb-11ea-9f77-e8ff7ac9b5c7.png)
+
+#### 16. 의뢰한 작업 목록
+![image](https://user-images.githubusercontent.com/52439497/91726900-eb85c880-ebdb-11ea-8122-66415c092f79.png)
+
+#### 17. 의뢰한 작업 결과
+![image](https://user-images.githubusercontent.com/52439497/91726953-f93b4e00-ebdb-11ea-99de-99f96d83d82d.png)
+![image](https://user-images.githubusercontent.com/52439497/91727142-330c5480-ebdc-11ea-9850-4c4ee4c277fc.png)
+![image](https://user-images.githubusercontent.com/52439497/91726971-fe989880-ebdb-11ea-9b06-13c42acdcff7.png)
+
+#### 18. 결과물 다운로드
+![image](https://user-images.githubusercontent.com/52439497/91727046-1708b300-ebdc-11ea-8f7c-83ef625da988.png)
+
+
+
+
+
+
+
 
 ## 프로젝트 setup
 ```
