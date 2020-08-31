@@ -113,8 +113,8 @@ npm install 이후 생성된 node_modules/wavesurfer.js/src/plugin/timeline.js�
 ### 오픈 소스 
 [Configuration Reference](https://cli.vuejs.org/config/).      
 [WaveSurfer.js](https://wavesurfer-js.org/).        
-[Vue Audio Recorder](https://github.com/grishkovelli/vue-audio-recorder).         
-[Canvas](https://developer.mozilla.org/ko/docs/Web/HTML/Canvas).
-[Draw on Canvas](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics).
-[Sha256](https://nodei.co/npm/js-sha256/).
-[Vue phone number Input](https://www.npmjs.com/package/vue-phone-number-input).
+[Vue Audio Recorder](https://github.com/grishkovelli/vue-audio-recorder).          
+[Canvas](https://developer.mozilla.org/ko/docs/Web/HTML/Canvas).         
+[Draw on Canvas](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics).         
+[Sha256](https://nodei.co/npm/js-sha256/).          
+[Vue phone number Input](https://www.npmjs.com/package/vue-phone-number-input).           
