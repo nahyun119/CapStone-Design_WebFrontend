@@ -63,6 +63,7 @@ AI 학습을 위한 데이터 수집 및 가공 플랫폼인 방구석 수집가
 ![image](https://user-images.githubusercontent.com/52439497/91726714-a497d300-ebdb-11ea-832f-37ab48e60135.png)
 
 #### 12. 음성 수집 작업
+![image](https://user-images.githubusercontent.com/52439497/111067206-87d34500-8506-11eb-8f92-582b66f680c0.png)
 ![image](https://user-images.githubusercontent.com/52439497/91726735-acf00e00-ebdb-11ea-824c-2b3be55aebda.png)
 
 #### 13. 분류 작업
